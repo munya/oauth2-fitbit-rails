@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["cjwalker@sfu.ca"]
 
   spec.summary       = %q{Oauth2 Rails based client for Fitbit specifically.}
-  spec.homepage      = "https://github.com/ColDog/oauth2-fitbit-rails"
+  spec.homepage      = "https://github.com/munya/oauth2-fitbit-rails"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = "exe"
